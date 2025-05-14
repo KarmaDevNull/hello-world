@@ -1,6 +1,7 @@
 # Table of contents
 
-* [Prompting Guide](README.md)
+* [Documentation](README.md)
+  * [Prompting Guide](documentation/prompting-guide.md)
 * [User Interface - UI](user-interface-ui/README.md)
   * [Explore UI](user-interface-ui/explore-ui.md)
   * [My images UI](user-interface-ui/my-images-ui.md)
