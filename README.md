@@ -146,8 +146,8 @@ Ideogram uses **plain natural language** to interpret prompts. There are **no hi
 
 This means:
 
-* You **can’t assign weights** to parts of a prompt (e.g., `::1` or `(important)` won’t change anything)
-* You **can’t use hex codes or RGB values** for colors—describe them instead (e.g., _“deep red,” “pale blue,” “golden-yellow”_). You can still influence the color in the image to be generated with the **Color** function.
+* You **can’t assign weights** to parts of a prompt (e.g., `::1` or `(important)`&#x20;
+* You **can’t use hex codes or RGB values** for colors (e.g., `#E4BC73` ). Describe them instead with ordinary words (e.g., _“deep red,” “pale blue,” “golden-yellow”_). You can still influence the color in the image to be generated with the **Color** function.
 * You **can’t use technical flags or shortcuts** like `--ar` or `--v` or `--style`
 
 **Positioning still matters**: things written earlier in the prompt tend to be given more importance. So place the most important subject or idea near the beginning whenever possible.
