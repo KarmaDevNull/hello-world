@@ -97,7 +97,7 @@ Combine all of these for surprising, creative outcomes.
 
 ***
 
-{% hint style="info" %}
+{% hint style="success" %}
 That’s it! Once you’re comfortable, the full guide below can help you go deeper and get even better results. But for now, just start prompting and see what happens. **Have fun!**
 {% endhint %}
 
