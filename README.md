@@ -4,15 +4,15 @@
 
 <summary><strong>In a Nutshell</strong> <em>(click to reveal)</em></summary>
 
-## Ideogram Prompting in a Nutshell
+### Ideogram prompting in a Nutshell
 
 Want to quickly start prompting with Ideogram? Here are the basics you need to know.
 
-### Use Natural Language Only
+#### Use Natural Language Only
 
 Ideogram understands plain, everyday language. No need to use weights, parameters, or technical syntax—just describe what you want as clearly as possible, the way you’d describe something to a person.
 
-### Be Clear and Visually Grounded
+#### Be Clear and Visually Grounded
 
 The more your prompt describes things that can actually be seen—like shapes, colors, materials, lighting, and background—the better the AI can understand and render them.
 
@@ -25,11 +25,11 @@ Focus on:
 
 Example: _“A watercolor painting of a fox curled up in snow under a pine tree, with soft blue shadows and falling snowflakes.”_
 
-### Use a Structure
+#### Use a Structure
 
 You don’t need perfect grammar, but organizing your prompt helps a lot. Here’s a complete structure that works well:
 
-> \[_Image summary_]. \[_Main subject details_], \[_Pose or action_], \[_Secondary elements_], \[_Setting & Background_], \[_Lighting & Atmosphere_], \[_Framing & Composition_]
+> _\[Image summary]. \[Main subject details], \[Pose or action], \[Secondary elements], \[Setting & Background], \[Lighting & Atmosphere], \[Framing & Composition]_
 
 For example:
 
@@ -37,29 +37,29 @@ For example:
 
 No need to use every part—keep it short when exploring, and add more parts/details when you need control.
 
-### Main Ideas First
+#### Main Ideas First
 
 Ideogram tends to give slightly more importance to parts placed earlier in the prompt. This is where to write the subject.
 
-### Generating Text in Images
+#### Generating Text in Images
 
 If you want text in your image, describing it near the beginning of the prompt usually leads to better results with fewer errors than if it is near the end. Using quotes `“ ”` around the desired text also helps. Keep in mind that the longer and more complex the text, the more likely it is to produce errors.
 
-### Visually Grounded vs. Abstract Prompts
+#### Visually Grounded vs. Abstract Prompts
 
 * **Visually Grounded**: Clear, detailed prompts get you precise images (e.g., _“A smiling woman wearing sunglasses at the beach”_).
 * **Abstract/Poetic**: Vague or symbolic prompts lead to creative, surprising images (e.g., _“The feeling of summer captured in a moment”_).
 
-### Handle Negatives
+#### Handle Negatives
 
 * Don’t say _“no people,” “man without a beard,” “no background”_ or _“without trees.”_
 * Instead, say exactly what you want (_“empty street,” “clean-shaven man,” “a plain white background,” or “desert landscape”_).
 
-### Be Specific, Detailed, But Not Overloaded
+#### Be Specific, Detailed, But Not Overloaded
 
 Ideogram generally performs best with prompts under approximately 150 words (around 200 tokens). If the prompt is longer, the AI may begin to misinterpret or ignore the content beyond that point.
 
-### Try, Iterate, Tweak
+#### Try, Iterate, Tweak
 
 If something looks off, tweak one thing at a time:
 
@@ -70,18 +70,18 @@ If something looks off, tweak one thing at a time:
 
 Prompting is a creative process—experiment, learn, and have fun
 
-### Use Creative Tools
+#### Use Creative Tools
 
 * **Magic Prompt**: Enhances and expands your original prompt.
 * **Reference Style**: Applies the visual style from an image (generated or uploaded) to the image you are generating.
 * **Random Style**: Same as Reference Style but with a random image. Perfect for wild visual explorations.
-* **Remix**: Adjust and tweaks existing images using similar or different prompts .
+* **Remix**: Adjust and tweaks existing images using similar or different prompts.
 
 Combine all of these for surprising, creative outcomes.
 
 ***
 
-{% hint style="success" %}
+{% hint style="info" %}
 That’s it! Once you’re comfortable, the full guide below can help you go deeper and get even better results. But for now, just start prompting and see what happens. **Have fun!**
 {% endhint %}
 
@@ -95,13 +95,11 @@ Prompting is the process of providing a description or instruction to an AI mode
 
 For example:
 
-> "A serene landscape with rolling hills under a starry night sky."
+> _“A serene landscape with rolling hills under a starry night sky.”_
 
 This prompt guides the AI to produce an image matching the described scene.
 
 A good prompt can be short or detailed, precise or poetic, depending on your goals. You'll learn how to choose the best approach based on the type of image you want.
-
-
 
 ### 1.2 Why Prompting Matters
 
@@ -142,7 +140,7 @@ If you’re coming from other text-to-image tools, this may feel simpler—but t
 
 **You can write your prompt in your preferred language**: Ideogram generally understands prompts in any language, but for the most reliable results—especially when including text—write in English. Non-Latin scripts (e.g. Arabic, Chinese, Cyrillic) often render incorrectly. Using Magic Prompt will automatically translate your prompt into English.
 
-While short, tag-like prompts (such as _"a man in the forest, fire, dramatic, painting"_) may work in some cases, **Ideogram—especially version 2.0 and higher—responds better to natural, sentence-style prompting.** Full sentences or clearly structured phrases help the AI understand context, relationships, and composition more reliably. Writing your prompt the way you'd describe the image to another person generally produces better results. Ordinary grammar, punctuation, and descriptive flow help the model understand context, relationships, and visual intent more accurately.
+While short, tag-like prompts (such as _“a man in the forest, fire, dramatic, painting”_) may work in some cases, **Ideogram—especially version 2.0 and higher—responds better to natural, sentence-style prompting.** Full sentences or clearly structured phrases help the AI understand context, relationships, and composition more reliably. Writing your prompt the way you'd describe the image to another person generally produces better results. Ordinary grammar, punctuation, and descriptive flow help the model understand context, relationships, and visual intent more accurately.
 
 ### 2.2 How Ideogram Interprets Prompts
 
@@ -206,13 +204,13 @@ This kind of prompt tells the AI exactly what to render, and how to stage the vi
 
 Ideogram supports prompts up to **approximately 150 – 160 words (around 200 tokens)**. Prompts longer than this may be ignored or generate less accurate results. Make every word count, and always lead with what matters most.
 
-{% hint style="success" %}
+{% hint style="info" %}
 **Tip:** Prompt length isn’t tied to prompting style. You can write short or long prompts whether you're using visually grounded, abstract, or hybrid language.
 
 * Use **short prompts** when you want looser interpretation, to spark creative exploration or want to use Magic Prompt.
 * Use **longer prompts** when you want to guide specific elements like subject, background, style, or lighting.
 
-Start simple, lead with what's most important, and build up detail only as needed.&#x20;
+Start simple, lead with what's most important, and build up detail only as needed.
 {% endhint %}
 
 ### 2.5 **Visually Grounded vs. Abstract Prompts**
@@ -265,9 +263,9 @@ Ideogram excels at rendering text within images—especially for posters, logos,
 
 The way you phrase your prompt can influence how well Ideogram renders the text within an image. Below are a few natural-language examples that show how to include quoted text early in your prompt, while keeping the description visually grounded and realistic.
 
-> * _On the wall behind the artist, the phrase "Inspire Daily" is painted in large brush strokes across a mural, at the back of a vibrant and creative studio._
-> * _A vintage poster design with the words "Ride Free" curving along the bottom in retro lettering, featuring a smiling woman on a bicycle on a countryside road._
-> * _A chalkboard sign outside the bakery reads "Fresh Bread Daily" in handwritten white letters, surrounded by loaves and pastries arranged on rustic wooden shelves._
+> * _On the wall behind the artist, the phrase “Inspire Daily” is painted in large brush strokes across a mural, at the back of a vibrant and creative studio._
+> * _A vintage poster design with the words “Ride Free” curving along the bottom in retro lettering, featuring a smiling woman on a bicycle on a countryside road._
+> * _A chalkboard sign outside the bakery reads “Fresh Bread Daily” in handwritten white letters, surrounded by loaves and pastries arranged on rustic wooden shelves._
 
 **To achieve the best results:**
 
@@ -277,7 +275,7 @@ The way you phrase your prompt can influence how well Ideogram renders the text 
 *   **Break longer text into chunks.**\
     If you're trying to generate more than one line of text, it's often better to split the content into sections with specific visual placement:
 
-    > _A restaurant sign with the title "La Pasta" at the top, and the phrase "Fresh handmade Italian dishes" written below._
+    > _A restaurant sign with the title “La Pasta” at the top, and the phrase “Fresh handmade Italian dishes” written below._
 
     This gives Ideogram clearer structure and lowers the risk of spelling errors.
 * **Reduce visual complexity if possible.**\
@@ -310,7 +308,7 @@ Each part below includes three numbered examples. Each number represents a part 
 
 {% stepper %}
 {% step %}
-### Image Summary
+#### Image Summary
 
 **Purpose**: This is where the entire image is described in a single sentence. Think of it as how someone might describe the image after glancing at it for just two seconds. If you could only write one sentence for the prompt, this is the part you’d want to get right. It also works well with tools like **Magic Prompt** to expand on. It establishes the visual form (e.g., photo, logo, painting), identifies the main subject, and gives a hint of the visual tone or context of the image.
 
@@ -322,9 +320,9 @@ Each part below includes three numbered examples. Each number represents a part 
 {% endstep %}
 
 {% step %}
-### Main Subject Details
+#### Main Subject Details
 
-**Purpose**: This part gives more information about the main subject in the image. What does it look like? What color is it? What shape, material or texture? Whether it’s a person, animal, or object, this section ensures that the subject is described clearly and specifically so the AI can generate it precisely. This is also the best place to include any text you want rendered in the image, such as titles, signs, or labels. For best results, enclose the exact wording in quotation marks `" "` and place it early in the prompt when possible. Describe where the text appears and how it looks to increase accuracy.
+**Purpose**: This part gives more information about the main subject in the image. What does it look like? What color is it? What shape, material or texture? Whether it’s a person, animal, or object, this section ensures that the subject is described clearly and specifically so the AI can generate it precisely. This is also the best place to include any text you want rendered in the image, such as titles, signs, or labels. For best results, enclose the exact wording in quotation marks `“ ”` and place it early in the prompt when possible. Describe where the text appears and how it looks to increase accuracy.
 
 1. _The bottle is tall and rectangular with dark glass, a matte black cap, and silver lettering. The text “Nightlife for men” appears on the label in bold, modern font._
 2. _The girl has short brown hair, a yellow dress, and rosy cheeks. She holds a fluffy white bunny in her arms, and both are smiling._
@@ -332,7 +330,7 @@ Each part below includes three numbered examples. Each number represents a part 
 {% endstep %}
 
 {% step %}
-### Pose or Action
+#### Pose or Action
 
 **Purpose**: This section describes what the main subject is doing — or how it’s placed. If it’s a person, maybe they’re smiling or sitting. If it’s an object, is it standing upright or tilted? This adds life and personality to the image, even when it’s still.
 
@@ -342,7 +340,7 @@ Each part below includes three numbered examples. Each number represents a part 
 {% endstep %}
 
 {% step %}
-### Secondary Elements
+#### Secondary Elements
 
 **Purpose**: These are the smaller things around or near the main subject. They help tell the story, establish relationships or complete the scene, but they don’t steal the spotlight. Think of things like props, background objects, accessories, ambient visual details, or smaller characters that make the image feel fuller.
 
@@ -352,7 +350,7 @@ Each part below includes three numbered examples. Each number represents a part 
 {% endstep %}
 
 {% step %}
-### Setting & Background
+#### Setting & Background
 
 **Purpose**: This part explains where the image takes place. Is it outside or indoors? In a forest, a city, a room, or an empty space? You can also say if it’s daytime, sunset, or a certain time in history. Whether highly detailed or minimalistic, the background contributes to anchor the image in a coherent visual context.
 
@@ -362,7 +360,7 @@ Each part below includes three numbered examples. Each number represents a part 
 {% endstep %}
 
 {% step %}
-### Lighting & Atmosphere
+#### Lighting & Atmosphere
 
 **Purpose**: This is about how the light looks and how the image feels. Is the light soft or bright? Is it warm and cozy, or dramatic and dark? Atmosphere includes mood-related descriptors like ethereal, cozy, ominous, cinematic, etc. This helps set the mood of the image and makes it feel more real or more emotional.
 
@@ -372,7 +370,7 @@ Each part below includes three numbered examples. Each number represents a part 
 {% endstep %}
 
 {% step %}
-### Framing & Composition
+#### Framing & Composition
 
 **Purpose**: This describes how the subject and elements are visually arranged within the frame. It can describe the camera or viewer angle (top-down, low angle), shot type (close-up, wide), and subject placement (centered, rule of thirds). For non-photographic works, it still applies—e.g., how a figure is balanced in a painting or how elements are spaced in a logo. It enhances clarity, focus, and aesthetics.
 
@@ -382,7 +380,7 @@ Each part below includes three numbered examples. Each number represents a part 
 {% endstep %}
 
 {% step %}
-### Technical Enhancers
+#### Technical Enhancers
 
 **Purpose**: These are the extra details that make the image look more polished or professional. They don’t change the content, but they improve how it looks — like lens type, lighting effects, bokeh, brush textures, or rendering style. These are useful when you want a certain artistic finish.
 
@@ -400,7 +398,7 @@ Now that you’ve seen each part in isolation, let’s bring them together.
 
 Here’s a basic prompt template that is making use of all the parts described above:
 
-> \[_Image summary_]. \[_Main subject details_], \[_Pose or action_], \[_Secondary elements_], \[S&#x65;_&#x74;ting & Background_], \[_Lighting & Atmosphere_], \[_Framing & Composition_], \[_Technical enhancers_]
+> _\[Image summary]. \[Main subject details], \[Pose or action], \[Secondary elements], \[Setting & Background], \[Lighting & Atmosphere], \[Framing & Composition], \[Technical enhancers]_
 
 By combining all the example parts from the example in section 3.1 above, we can build the following three complete prompts:
 
@@ -409,18 +407,18 @@ By combining all the example parts from the example in section 3.1 above, we can
 3. > _A logo design for a local football team called “Rhinos” in green, blue, and white. The main graphic shows a strong, stylized rhino head viewed from a three-quarter angle, with sharp lines and a bold expression. The word “Rhinos” appears in large, blocky letters beneath the icon. The rhino’s horn points slightly forward and up, adding a sense of motion. Stars and shield shapes accent the logo without crowding it. The background is flat white, with no scene or setting. The color palette is vivid, with deep blue outlines, white highlights, and green fills. The logo is center-aligned with a tight, symmetrical layout. The lines are clean, the edges sharp, and the style is vector-based with a modern, sporty look._
 
 {% hint style="info" %}
-> **Note:** Ideogram supports prompts **up to roughly 150-160 words or about 200 tokens** depending on the vocabulary. Anything beyond that limit may be **less effective or ignored entirely** by the AI when generating the image. To avoid losing key details, make sure the most important parts of your prompt come near the beginning. The assembled examples above approach that upper limit and are designed to give the AI strong visual and stylistic guidance while staying concise and well-structured.
+> _**Note:** Ideogram supports prompts **up to roughly 150-160 words or about 200 tokens** depending on the vocabulary. Anything beyond that limit may be **less effective or ignored entirely** by the AI when generating the image. To avoid losing key details, make sure the most important parts of your prompt come near the beginning. The assembled examples above approach that upper limit and are designed to give the AI strong visual and stylistic guidance while staying concise and well-structured._
 {% endhint %}
 
 ***
 
 ## 4. Handling Negatives
 
-### &#x20;4.1 Why Negative Phrasing Often Fails
+### 4.1 Why Negative Phrasing Often Fails
 
-Ideogram, like many text-to-image AIs, struggles with understanding negation. When you describe something in terms of what it shouldn't include, the AI often misinterprets or ignores the negation. Instead, it focuses on the keywords themselves. For example, prompting _"a man without a beard"_ may result in an image of a man with a beard, as the AI emphasizes the word _"beard"_ without processing the _"without"_ modifier.
+Ideogram, like many text-to-image AIs, struggles with understanding negation. When you describe something in terms of what it shouldn't include, the AI often misinterprets or ignores the negation. Instead, it focuses on the keywords themselves. For example, prompting _“a man without a beard”_ may result in an image of a man with a beard, as the AI emphasizes the word _“beard”_ without processing the _“without”_ modifier.
 
-This issue arises because these models are trained to associate words with visual elements, but they don't inherently grasp the concept of absence or exclusion. Therefore, using negative terms like _"no,"_ _"without,"_ or _"not"_ can lead to unintended results.
+This issue arises because these models are trained to associate words with visual elements, but they don't inherently grasp the concept of absence or exclusion. Therefore, using negative terms like _“no,”_ _“without,”_ or _“not”_ can lead to unintended results.
 
 ### 4.2 Turn Negatives Into Positives
 
@@ -432,7 +430,7 @@ Ask yourself: _“If this thing wasn’t there, what would I see instead?”_
 
 For example:
 
-* Don't write _<mark style="color:blue;">“</mark>no people in the room”_ but write _“an empty room with chairs neatly arranged”_
+* Don't write _“no people in the room”_ but write _“an empty room with chairs neatly arranged”_
 * Avoid _“without hair”_ → and replace it by “a bald figure with smooth skin”
 * Instead of _“a beach without people”_ use _“an empty beach at sunrise”_
 * Rather than _“a robot with no eyes”_ try _“a robot with a smooth, featureless face”_
@@ -450,27 +448,23 @@ These tips are especially useful when you have a clear image in mind and want Id
 
 ### 5.1 Vague Adjectives
 
-**Issue:** Using non-specific descriptors like _"beautiful," "interesting," "nice"_ or _"cool"_ can lead to unpredictable outcomes, as the AI lacks a clear visual reference for these terms.
+**Issue:** Using non-specific descriptors like _“beautiful,” “interesting,” “nice”_ or _“cool”_ can lead to unpredictable outcomes, as the AI lacks a clear visual reference for these terms.
 
 **Fix:** Replace vague adjectives with specific visual details.
 
-> **Instead of:** _“a beautiful forest”_\
-> **Try:** _“a dense forest with tall pine trees and soft rays of sunlight filtering through the branches”_
+> \***Instead of:** _“a beautiful forest”_\*_**Try:** “a dense forest with tall pine trees and soft rays of sunlight filtering through the branches”_
 
-> **Instead of:** _“A beautiful dress.”_\
-> **Try:** _“A red satin evening gown with intricate lace details.”_
+> \***Instead of:** _“A beautiful dress.”_\*_**Try:** “A red satin evening gown with intricate lace details.”_
 
 ### 5.2 Generic Style Terms
 
-**Issue:** Using broad style descriptors like "artistic" or "modern"—often seen at the beginning of the prompt to define the medium and style of the image—may not provide the AI with enough guidance to what kind of art you expect.&#x20;
+**Issue:** Using broad style descriptors like “artistic” or “modern”—often seen at the beginning of the prompt to define the medium and style of the image—may not provide the AI with enough guidance to what kind of art you expect.
 
 **Fix:** Specify the desired style using well-known art movements, techniques, or mediums.
 
-> **Instead of:** _“a modern painting of a landscape”_\
-> **Try:** _“an impressionist painting of a rolling countryside with thick brushstrokes and pastel tones”_
+> \***Instead of:** _“a modern painting of a landscape”_\*_**Try:** “an impressionist painting of a rolling countryside with thick brushstrokes and pastel tones”_
 
-> **Instead of:** _“an artistic photo of a dancer”_\
-> **Try:** _“a soft-focus photo of a ballet dancer mid-leap on a dimly lit stage”_
+> \***Instead of:** _“an artistic photo of a dancer”_\*_**Try:** “a soft-focus photo of a ballet dancer mid-leap on a dimly lit stage”_
 
 ### 5.3 Contradictory Descriptions
 
@@ -478,13 +472,11 @@ These tips are especially useful when you have a clear image in mind and want Id
 
 **Fix:** Ensure all elements of the prompt are coherent and compatible.
 
-> **Instead of:** _“a minimalist sculpture with fine and intricate details”_\
-> **Try:** _“a minimalist sculpture with smooth, simple geometric shapes in white marble”_\
-> **Or:** _“a detailed sculpture carved with delicate patterns and ornamental features, displayed on a minimal white pedestal”_
+> \***Instead of:** _“a minimalist sculpture with fine and intricate details”_\*\
+> \***Try:** _“a minimalist sculpture with smooth, simple geometric shapes in white marble”_\*_**Or:** “a detailed sculpture carved with delicate patterns and ornamental features, displayed on a minimal white pedestal”_
 
-> **Instead of:** _“a clean, empty room cluttered with artifacts”_\
-> **Try:** _“a clean, empty room with plain white walls and a single wooden chair”_\
-> **Or:** _“a room filled with ancient artifacts, displayed on simple white pedestals in a clean, open space”_
+> \***Instead of:** _“a clean, empty room cluttered with artifacts”_\*\
+> \***Try:** _“a clean, empty room with plain white walls and a single wooden chair”_\*_**Or:** “a room filled with ancient artifacts, displayed on simple white pedestals in a clean, open space”_
 
 ### 5.4 Abstract Concepts Tied to a Subject
 
@@ -492,14 +484,11 @@ These tips are especially useful when you have a clear image in mind and want Id
 
 **Fix:** Anchor abstract concepts with tangible visuals.
 
-> **Instead of:** _“a symbol of hope”_\
-> **Try:** _“a single flower blooming through a crack in the concrete”_
+> \***Instead of:** _“a symbol of hope”_\*_**Try:** “a single flower blooming through a crack in the concrete”_
 
-> **Instead of:** _“_&#x61; child caught in a moment of wonde&#x72;_”_\
-> **Try:** _“a child staring up at a night sky filled with stars, mouth slightly open in awe”_
+> \***Instead of:** _“_&#x61; child caught in a moment of wonde&#x72;_”_\*_**Try:** “a child staring up at a night sky filled with stars, mouth slightly open in awe”_
 
-> **Instead of:** _“an old man lost in regret”_\
-> **Try:** _“an old man sitting alone on a park bench, staring down at a faded photo in his hands”_
+> \***Instead of:** _“an old man lost in regret”_\*_**Try:** “an old man sitting alone on a park bench, staring down at a faded photo in his hands”_
 
 ### 5.5 Aspect Ratio Influence on Framing
 
@@ -555,12 +544,11 @@ Each prompt you write is a starting point. If the result isn't quite right—may
 
 When refining your prompt, it's helpful to change only one thing at a time. This approach allows you to see how each specific change affects the outcome, making it easier to understand what works and what doesn't.
 
-> **Original:**\
-> &#xNAN;_“A black cat sitting on a windowsill during a storm”_\
-> **Possible changes:**\
-> 1\. _“A black cat sitting on a windowsill during a **light drizzle**”_\
-> 2\. _“A black **dog** sitting on a windowsill during a light drizzle”_\
-> 3\. _“A black dog sitting on a **porch** during a light drizzle”_
+> \***Original:**\*\
+> \*\&#xNAN;_“A black cat sitting on a windowsill during a storm”_\*\
+> \***Possible changes:**\*\
+> \*1. _“A black cat sitting on a windowsill during a **light drizzle**”_\*\
+> \*2. _“A black **dog** sitting on a windowsill during a light drizzle”_\*_3. “A black dog sitting on a **porch** during a light drizzle”_
 
 By altering just the nature of the storm, you can observe how this single change impacts the image.
 
@@ -568,10 +556,9 @@ By altering just the nature of the storm, you can observe how this single change
 
 Start with a simple prompt and gradually add more details in subsequent iterations. This method helps you build complexity step by step, ensuring each addition enhances the image without overwhelming it.
 
-> **Step 1:** _“a medieval castle”_\
-> **Step 2:** _“a medieval castle on a hilltop”_\
-> **Step 3:** _“a medieval castle on a hilltop at sunset”_\
-> **Step 4:** _“a medieval castle on a hilltop at sunset with a dragon flying overhead”_
+> \***Step 1:** _“a medieval castle”_\*\
+> \***Step 2:** _“a medieval castle on a hilltop”_\*\
+> \***Step 3:** _“a medieval castle on a hilltop at sunset”_\*_**Step 4:** “a medieval castle on a hilltop at sunset with a dragon flying overhead”_
 
 Each step adds a new element, allowing you to monitor how the image evolves.
 
@@ -579,9 +566,9 @@ Each step adds a new element, allowing you to monitor how the image evolves.
 
 Sometimes a specific word or phrase just doesn't produce the result you're looking for. When that happens, try swapping it with a synonym, rephrasing the idea in a different way, or using a slightly different expression. Even a small change in wording can lead to very different outcomes—especially if the new term is more visually recognizable to the AI.
 
-> * Instead of "_lush jungle_", try "_dense rainforest_" or "_tropical forest_"
-> * Instead of "_futuristic city_", try "_sci-fi metropolis_" or "_neon cyberpunk skyline_"
-> * Instead of "_sad expression_", try "_a face with downturned eyes and a slight frown_"
+> \*\* Instead of “_lush jungle_”, try “_dense rainforest_” or “_tropical forest_”\*\
+> \*\* Instead of “_futuristic city_”, try “_sci-fi metropolis_” or “_neon cyberpunk skyline_”\*\
+> \*\* Instead of “_sad expression_”, try “_a face with downturned eyes and a slight frown_”\*
 
 If something isn’t working right, it doesn’t mean your idea is wrong—just that the phrasing might need a small nudge.
 
@@ -627,17 +614,17 @@ Below is what each tool _does_ to your prompt or image—and when to reach for i
 
 ### 7.1 Describe – “Image to Prompt”
 
-* **What it does**: Reads an existing image (uploaded or generated) and writes a fresh prompt that would recreate something similar.&#x20;
+* **What it does**: Reads an existing image (uploaded or generated) and writes a fresh prompt that would recreate something similar.
 * **Why use it**:
   * Kick‑start a new idea when you don’t know how to word it.
   * Borrow phrasing tricks from images whose style you like.
 * **Best practice**: Treat the generated text as a _draft_. Edit details, reorder parts, or shorten it before re‑using.
 
-<mark style="color:red;">Describe documentation link to come.</mark>
+Describe documentation link to come.
 
 ### 7.2 Magic Prompt
 
-* **What it does**: Expands or beautifies your text with an on‑device LLM. Short prompts grow; long prompts change only slightly.&#x20;
+* **What it does**: Expands or beautifies your text with an on‑device LLM. Short prompts grow; long prompts change only slightly.
 * **Why use it**:
   * Add richer adjectives, lighting cues, or stylistic hints automatically.
   * Translate your ideas from any language into well‑formed English if desired.
@@ -647,39 +634,36 @@ Below is what each tool _does_ to your prompt or image—and when to reach for i
 *   **Examples**:
 
     > **Short prompt**:\
-    > &#xNAN;_&#x50;hoto of a cat sitting, gazing outside at the falling snow._\
+    > \&#xNAN;_Photo of a cat sitting, gazing outside at the falling snow._\
     > **Magic Prompt**:\
-    > &#xNAN;_&#x41; cozy, warm photograph of a fluffy Persian cat sitting on a window sill, gazing intently at the falling snow. The cat has long, luxurious white fur, bright emerald-green eyes, and a slightly flattened face, creating a charming and endearing expression. Outside the window, large snowflakes gently drift down, partially obscuring a blurred landscape of snow-covered trees and rooftops. Soft, diffused light illuminates the cat’s fur from within, casting a gentle glow on its face and creating a peaceful, tranquil atmosphere._
+    > \&#xNAN;_A cozy, warm photograph of a fluffy Persian cat sitting on a window sill, gazing intently at the falling snow. The cat has long, luxurious white fur, bright emerald-green eyes, and a slightly flattened face, creating a charming and endearing expression. Outside the window, large snowflakes gently drift down, partially obscuring a blurred landscape of snow-covered trees and rooftops. Soft, diffused light illuminates the cat’s fur from within, casting a gentle glow on its face and creating a peaceful, tranquil atmosphere._
     >
     > **Long prompt**:\
-    > &#xNAN;_&#x41; cozy indoor photo of a black-and-white cat sitting peacefully on a wooden windowsill. The cat has thick, fluffy fur and green eyes, looking outside with a calm expression. Snow is falling gently outside the window, creating a soft wintery backdrop. A leafy houseplant in a terracotta pot sits nearby, and light condensation covers the lower edge of the glass. The scene is lit by natural morning light, with soft shadows and a warm, quiet atmosphere. The cat is centered in the frame, captured at eye level, and the background is slightly blurred to focus attention on the subject._\
+    > \&#xNAN;_A cozy indoor photo of a black-and-white cat sitting peacefully on a wooden windowsill. The cat has thick, fluffy fur and green eyes, looking outside with a calm expression. Snow is falling gently outside the window, creating a soft wintery backdrop. A leafy houseplant in a terracotta pot sits nearby, and light condensation covers the lower edge of the glass. The scene is lit by natural morning light, with soft shadows and a warm, quiet atmosphere. The cat is centered in the frame, captured at eye level, and the background is slightly blurred to focus attention on the subject._\
     > **Magic Prompt**:\
-    > &#xNAN;_&#x41; serene, soft-focus photograph of a black-and-white cat perched gracefully on a weathered wooden windowsill, its thick, fluffy fur contrasting with the aged wood. The cat's bright green eyes gaze thoughtfully outwards, reflecting the gentle snowfall beyond the windowpane with a calm, almost contemplative expression. Outside, delicate snowflakes drift past a frosted window, while inside, a vibrant fiddle-leaf fig in a terracotta pot provides a splash of life near a softly blurred stack of antique books. Natural morning light illuminates the scene, creating a cozy and quiet atmosphere with subtle shadows and a delicate layer of condensation on the lower edge of the glass._
+    > \&#xNAN;_A serene, soft-focus photograph of a black-and-white cat perched gracefully on a weathered wooden windowsill, its thick, fluffy fur contrasting with the aged wood. The cat's bright green eyes gaze thoughtfully outwards, reflecting the gentle snowfall beyond the windowpane with a calm, almost contemplative expression. Outside, delicate snowflakes drift past a frosted window, while inside, a vibrant fiddle-leaf fig in a terracotta pot provides a splash of life near a softly blurred stack of antique books. Natural morning light illuminates the scene, creating a cozy and quiet atmosphere with subtle shadows and a delicate layer of condensation on the lower edge of the glass._
 
-
-
-<mark style="color:red;">Magic Prompt documentation link to come.</mark>
+Magic Prompt documentation link to come.
 
 ### 7.3 Random Style & Reference Style
 
-* **Reference Style**: Lets you supply an image (uploaded or existing Ideogram output) whose _look_ guides the next image.&#x20;
+* **Reference Style**: Lets you supply an image (uploaded or existing Ideogram output) whose _look_ guides the next image.
 * **Random Style**: Injects an unpredictable and random image as a reference style before generation—ideal for visual experimentation.
 
 **Why use them:**
 
 * **Random Style** pushes a familiar prompt into new artistic territory—great for concept discovery.
-* **Reference Style** anchors colours, textures, or composition to a source image—useful when you want variation without losing a core aesthetic.\
+* **Reference Style** anchors colours, textures, or composition to a source image—useful when you want variation without losing a core aesthetic.\\
 
-
-{% hint style="success" %}
-> **Pro tip**: Combine a _short prompt + Magic Prompt + Random Style_ and get ready to explore a variety of wild images and possibilities.
+{% hint style="info" %}
+> _**Pro tip**: Combine a short prompt + Magic Prompt + Random Style and get ready to explore a variety of wild images and possibilities._
 {% endhint %}
 
-<mark style="color:red;">Random/Reference style documentation links to come.</mark>
+Random/Reference style documentation links to come.
 
 ### 7.4 Remix
 
-* **What it does**: Use an existing image (uploaded or generated) as a parent image for the AI to regenerate while re‑using the prompt and other settings to make small or big changes.&#x20;
+* **What it does**: Use an existing image (uploaded or generated) as a parent image for the AI to regenerate while re‑using the prompt and other settings to make small or big changes.
 * **Why use it**:
   * Fix small flaws without re‑writing the entire prompt.
   * Try minor lighting, color, or pose changes but keep overall composition.
@@ -688,7 +672,7 @@ Below is what each tool _does_ to your prompt or image—and when to reach for i
   2. Change one phrase in the prompt (see Section 6).
   3. Hit Remix to preview the tweak side‑by‑side.
 
-<mark style="color:red;">Remix documentation link to come.</mark>
+Remix documentation link to come.
 
 ### 7.5 Combining Tools for Different Goals
 
@@ -696,7 +680,12 @@ Use these tools as _levers_: push them when you want more variation, pull back w
 
 For example:
 
-<table><thead><tr><th width="275.25390625">Goal</th><th>Suggested Combo</th></tr></thead><tbody><tr><td>Rapid visual exploration</td><td>Short prompt → Magic Prompt → Random Style</td></tr><tr><td>Style transfer</td><td>Clear prompt → Reference Style (upload reference)</td></tr><tr><td>Polish an almost‑perfect image</td><td>Existing image → Remix (tweak one word)</td></tr><tr><td>Learn how to phrase</td><td>Inspiring image → Describe → edit → generate</td></tr></tbody></table>
+| Goal                           | Suggested Combo                                   |
+| ------------------------------ | ------------------------------------------------- |
+| Rapid visual exploration       | Short prompt → Magic Prompt → Random Style        |
+| Style transfer                 | Clear prompt → Reference Style (upload reference) |
+| Polish an almost‑perfect image | Existing image → Remix (tweak one word)           |
+| Learn how to phrase            | Inspiring image → Describe → edit → generate      |
 
 ***
 
@@ -740,7 +729,7 @@ Even with a well-structured prompt, the AI may not always interpret your intent 
 
 **Fixes:**
 
-* Put the text in **quotes** (e.g., _a sign that says "Open 24 Hours"_)
+* Put the text in **quotes** (e.g., _a sign that says “Open 24 Hours”_)
 * Place the text early in the prompt
 * Limit the amount of generated text
 * Break long text into chunks with placement cues
@@ -960,6 +949,3 @@ Prompting with Ideogram is both a skill and a creative process. Whether you’re
 ## Appendixes
 
 To come...
-
-
-
