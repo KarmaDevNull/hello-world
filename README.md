@@ -468,9 +468,11 @@ These tips are especially useful when you have a clear image in mind and want Id
 
 **Fix:** Replace vague adjectives with specific visual details.
 
-> \***Instead of:** _“a beautiful forest”_\*_**Try:** “a dense forest with tall pine trees and soft rays of sunlight filtering through the branches”_
-
-> \***Instead of:** _“A beautiful dress.”_\*_**Try:** “A red satin evening gown with intricate lace details.”_
+> **Instead of:** _“A beautiful forest”_\
+> &#xNAN;_**Try:** “A dense forest with tall pine trees and soft rays of sunlight filtering through the branches”_
+>
+> **Instead of:** _“A beautiful dress.”_\
+> &#xNAN;_**Try:** “A red satin evening gown with intricate lace details.”_
 
 ### 5.2 Generic Style Terms
 
@@ -478,9 +480,11 @@ These tips are especially useful when you have a clear image in mind and want Id
 
 **Fix:** Specify the desired style using well-known art movements, techniques, or mediums.
 
-> \***Instead of:** _“a modern painting of a landscape”_\*_**Try:** “an impressionist painting of a rolling countryside with thick brushstrokes and pastel tones”_
-
-> \***Instead of:** _“an artistic photo of a dancer”_\*_**Try:** “a soft-focus photo of a ballet dancer mid-leap on a dimly lit stage”_
+> **Instead of:** _“a modern painting of a landscape”_\
+> &#xNAN;_**Try:** “An impressionist painting of a rolling countryside with thick brushstrokes and pastel tones”_
+>
+> **Instead of:** _“an artistic photo of a dancer”_\
+> &#xNAN;_**Try:** “A soft-focus photo of a ballet dancer mid-leap on a dimly lit stage”_
 
 ### 5.3 Contradictory Descriptions
 
@@ -488,11 +492,13 @@ These tips are especially useful when you have a clear image in mind and want Id
 
 **Fix:** Ensure all elements of the prompt are coherent and compatible.
 
-> \***Instead of:** _“a minimalist sculpture with fine and intricate details”_\*\
-> \***Try:** _“a minimalist sculpture with smooth, simple geometric shapes in white marble”_\*_**Or:** “a detailed sculpture carved with delicate patterns and ornamental features, displayed on a minimal white pedestal”_
-
-> \***Instead of:** _“a clean, empty room cluttered with artifacts”_\*\
-> \***Try:** _“a clean, empty room with plain white walls and a single wooden chair”_\*_**Or:** “a room filled with ancient artifacts, displayed on simple white pedestals in a clean, open space”_
+> **Instead of:** _“A minimalist sculpture with fine and intricate details”_\
+> **Try:** _“A minimalist sculpture with smooth, simple geometric shapes in white marble”_\
+> &#xNAN;_**Or:** “A detailed sculpture carved with delicate patterns and ornamental features, displayed on a minimal white pedestal”_
+>
+> **Instead of:** _“A clean, empty room cluttered with artifacts”_\
+> **Try:** _“A clean, empty room with plain white walls and a single wooden chair”_\
+> &#xNAN;_**Or:** “A room filled with ancient artifacts, displayed on simple white pedestals in a clean, open space”_
 
 ### 5.4 Abstract Concepts Tied to a Subject
 
@@ -500,11 +506,14 @@ These tips are especially useful when you have a clear image in mind and want Id
 
 **Fix:** Anchor abstract concepts with tangible visuals.
 
-> \***Instead of:** _“a symbol of hope”_\*_**Try:** “a single flower blooming through a crack in the concrete”_
-
-> \***Instead of:** _“_&#x61; child caught in a moment of wonde&#x72;_”_\*_**Try:** “a child staring up at a night sky filled with stars, mouth slightly open in awe”_
-
-> \***Instead of:** _“an old man lost in regret”_\*_**Try:** “an old man sitting alone on a park bench, staring down at a faded photo in his hands”_
+> **Instead of:** _“A symbol of hope”_\
+> **Try**_**:** “A single flower blooming through a crack in the concrete”_
+>
+> **Instead of:** _“_&#x41; child caught in a moment of wonde&#x72;_”_\
+> **Try**_**:** “A child staring up at a night sky filled with stars, mouth slightly open in awe”_
+>
+> **Instead of:** _“An old man lost in regret”_\
+> **Try**_**:** “An old man sitting alone on a park bench, staring down at a faded photo in his hands”_
 
 ### 5.5 Aspect Ratio Influence on Framing
 
@@ -512,7 +521,7 @@ Even with the exact same prompt, Ideogram may generate very different results de
 
 This is because the AI tries to fill the entire canvas based on the image it was trained with, and different aspect ratios naturally suggest different types of framing. For example:
 
-A prompt like _“a woman walking on a busy city street sidewalk”_
+A prompt like _“A woman walking on a busy city street sidewalk”_
 
 * In **portrait (1:2)**, the result may show her full body from head to toe.
 * In **landscape (2:1)**, the framing may shift closer—showing her from the waist up or knees up to fit the wider format.
@@ -560,11 +569,12 @@ Each prompt you write is a starting point. If the result isn't quite right—may
 
 When refining your prompt, it's helpful to change only one thing at a time. This approach allows you to see how each specific change affects the outcome, making it easier to understand what works and what doesn't.
 
-> \***Original:**\*\
-> \*\&#xNAN;_“A black cat sitting on a windowsill during a storm”_\*\
-> \***Possible changes:**\*\
-> \*1. _“A black cat sitting on a windowsill during a **light drizzle**”_\*\
-> \*2. _“A black **dog** sitting on a windowsill during a light drizzle”_\*_3. “A black dog sitting on a **porch** during a light drizzle”_
+> **Original:**\
+> &#xNAN;_“A black cat sitting on a windowsill during a storm”_\
+> **Possible changes:**\
+> 1\. _“A black cat sitting on a windowsill during a **light drizzle**”_\
+> 2\. _“A black **dog** sitting on a windowsill during a light drizzle”_\
+> _3. “A black dog sitting on a **porch** during a light drizzle”_
 
 By altering just the nature of the storm, you can observe how this single change impacts the image.
 
@@ -572,9 +582,10 @@ By altering just the nature of the storm, you can observe how this single change
 
 Start with a simple prompt and gradually add more details in subsequent iterations. This method helps you build complexity step by step, ensuring each addition enhances the image without overwhelming it.
 
-> \***Step 1:** _“a medieval castle”_\*\
-> \***Step 2:** _“a medieval castle on a hilltop”_\*\
-> \***Step 3:** _“a medieval castle on a hilltop at sunset”_\*_**Step 4:** “a medieval castle on a hilltop at sunset with a dragon flying overhead”_
+> **Step 1:** _“A medieval castle”_\
+> **Step 2:** _“A medieval castle on a hilltop”_\*\
+> **Step 3:** _“A medieval castle on a hilltop at sunset”_\
+> &#xNAN;_**Step 4:** “A medieval castle on a hilltop at sunset with a dragon flying overhead”_
 
 Each step adds a new element, allowing you to monitor how the image evolves.
 
@@ -582,9 +593,9 @@ Each step adds a new element, allowing you to monitor how the image evolves.
 
 Sometimes a specific word or phrase just doesn't produce the result you're looking for. When that happens, try swapping it with a synonym, rephrasing the idea in a different way, or using a slightly different expression. Even a small change in wording can lead to very different outcomes—especially if the new term is more visually recognizable to the AI.
 
-> \*\* Instead of “_lush jungle_”, try “_dense rainforest_” or “_tropical forest_”\*\
-> \*\* Instead of “_futuristic city_”, try “_sci-fi metropolis_” or “_neon cyberpunk skyline_”\*\
-> \*\* Instead of “_sad expression_”, try “_a face with downturned eyes and a slight frown_”\*
+> **Instead of** “_lush jungle_”, **try** “_dense rainforest_” **or** “_tropical forest_”\
+> **Instead of** “_futuristic city_”, **try** “_sci-fi metropolis_” **or** “_neon cyberpunk skyline_”\
+> **Instead of** “_sad expression_”, **try** “_a face with downturned eyes and a slight frown_”
 
 If something isn’t working right, it doesn’t mean your idea is wrong—just that the phrasing might need a small nudge.
 
@@ -650,14 +661,15 @@ Describe documentation link to come.
 *   **Examples**:
 
     > **Short prompt**:\
-    > \&#xNAN;_Photo of a cat sitting, gazing outside at the falling snow._\
+    > &#xNAN;_&#x50;hoto of a cat sitting, gazing outside at the falling snow._\
     > **Magic Prompt**:\
-    > \&#xNAN;_A cozy, warm photograph of a fluffy Persian cat sitting on a window sill, gazing intently at the falling snow. The cat has long, luxurious white fur, bright emerald-green eyes, and a slightly flattened face, creating a charming and endearing expression. Outside the window, large snowflakes gently drift down, partially obscuring a blurred landscape of snow-covered trees and rooftops. Soft, diffused light illuminates the cat’s fur from within, casting a gentle glow on its face and creating a peaceful, tranquil atmosphere._
+    > &#xNAN;_&#x41; cozy, warm photograph of a fluffy Persian cat sitting on a window sill, gazing intently at the falling snow. The cat has long, luxurious white fur, bright emerald-green eyes, and a slightly flattened face, creating a charming and endearing expression. Outside the window, large snowflakes gently drift down, partially obscuring a blurred landscape of snow-covered trees and rooftops. Soft, diffused light illuminates the cat’s fur from within, casting a gentle glow on its face and creating a peaceful, tranquil atmosphere._\
+    >
     >
     > **Long prompt**:\
-    > \&#xNAN;_A cozy indoor photo of a black-and-white cat sitting peacefully on a wooden windowsill. The cat has thick, fluffy fur and green eyes, looking outside with a calm expression. Snow is falling gently outside the window, creating a soft wintery backdrop. A leafy houseplant in a terracotta pot sits nearby, and light condensation covers the lower edge of the glass. The scene is lit by natural morning light, with soft shadows and a warm, quiet atmosphere. The cat is centered in the frame, captured at eye level, and the background is slightly blurred to focus attention on the subject._\
+    > &#xNAN;_&#x41; cozy indoor photo of a black-and-white cat sitting peacefully on a wooden windowsill. The cat has thick, fluffy fur and green eyes, looking outside with a calm expression. Snow is falling gently outside the window, creating a soft wintery backdrop. A leafy houseplant in a terracotta pot sits nearby, and light condensation covers the lower edge of the glass. The scene is lit by natural morning light, with soft shadows and a warm, quiet atmosphere. The cat is centered in the frame, captured at eye level, and the background is slightly blurred to focus attention on the subject._\
     > **Magic Prompt**:\
-    > \&#xNAN;_A serene, soft-focus photograph of a black-and-white cat perched gracefully on a weathered wooden windowsill, its thick, fluffy fur contrasting with the aged wood. The cat's bright green eyes gaze thoughtfully outwards, reflecting the gentle snowfall beyond the windowpane with a calm, almost contemplative expression. Outside, delicate snowflakes drift past a frosted window, while inside, a vibrant fiddle-leaf fig in a terracotta pot provides a splash of life near a softly blurred stack of antique books. Natural morning light illuminates the scene, creating a cozy and quiet atmosphere with subtle shadows and a delicate layer of condensation on the lower edge of the glass._
+    > &#xNAN;_&#x41; serene, soft-focus photograph of a black-and-white cat perched gracefully on a weathered wooden windowsill, its thick, fluffy fur contrasting with the aged wood. The cat's bright green eyes gaze thoughtfully outwards, reflecting the gentle snowfall beyond the windowpane with a calm, almost contemplative expression. Outside, delicate snowflakes drift past a frosted window, while inside, a vibrant fiddle-leaf fig in a terracotta pot provides a splash of life near a softly blurred stack of antique books. Natural morning light illuminates the scene, creating a cozy and quiet atmosphere with subtle shadows and a delicate layer of condensation on the lower edge of the glass._
 
 Magic Prompt documentation link to come.
 
@@ -672,7 +684,7 @@ Magic Prompt documentation link to come.
 * **Reference Style** anchors colours, textures, or composition to a source image—useful when you want variation without losing a core aesthetic.\\
 
 {% hint style="info" %}
-> _**Pro tip**: Combine a short prompt + Magic Prompt + Random Style and get ready to explore a variety of wild images and possibilities._
+**Pro tip**: Combine a **short prompt** + **Magic Prompt** + **Random Style** and get ready to explore a variety of wild images and possibilities.
 {% endhint %}
 
 Random/Reference style documentation links to come.
@@ -696,12 +708,7 @@ Use these tools as _levers_: push them when you want more variation, pull back w
 
 For example:
 
-| Goal                           | Suggested Combo                                   |
-| ------------------------------ | ------------------------------------------------- |
-| Rapid visual exploration       | Short prompt → Magic Prompt → Random Style        |
-| Style transfer                 | Clear prompt → Reference Style (upload reference) |
-| Polish an almost‑perfect image | Existing image → Remix (tweak one word)           |
-| Learn how to phrase            | Inspiring image → Describe → edit → generate      |
+<table><thead><tr><th width="275.8984375">Goal</th><th>Suggested Combo</th></tr></thead><tbody><tr><td>Rapid visual exploration</td><td>Short prompt → Magic Prompt → Random Style</td></tr><tr><td>Style transfer</td><td>Clear prompt → Reference Style (upload reference)</td></tr><tr><td>Polish an almost‑perfect image</td><td>Existing image → Remix (tweak one word)</td></tr><tr><td>Learn how to phrase</td><td>Inspiring image → Describe → edit → generate</td></tr></tbody></table>
 
 ***
 
