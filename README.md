@@ -962,6 +962,6 @@ Prompting with Ideogram is both a skill and a creative process. Whether you’re
 
 ***
 
-## Appendixes
+## Appendices
 
 To come...
