@@ -1,18 +1,22 @@
+---
+description: A clear, practical guide to writing effective prompts for Ideogram.
+---
+
 # Prompting Guide
 
 <details>
 
-<summary><strong>In a Nutshell</strong> <em>(click to reveal)</em></summary>
+<summary><strong>In a Nutshell</strong>  <em>(click to reveal)</em></summary>
 
-### Ideogram prompting in a Nutshell
+## Ideogram Prompting in a Nutshell
 
 Want to quickly start prompting with Ideogram? Here are the basics you need to know.
 
-#### Use Natural Language Only
+### Use Natural Language Only
 
 Ideogram understands plain, everyday language. No need to use weights, parameters, or technical syntax—just describe what you want as clearly as possible, the way you’d describe something to a person.
 
-#### Be Clear and Visually Grounded
+### Be Clear and Visually Grounded
 
 The more your prompt describes things that can actually be seen—like shapes, colors, materials, lighting, and background—the better the AI can understand and render them.
 
@@ -25,9 +29,21 @@ Focus on:
 
 Example: _“A watercolor painting of a fox curled up in snow under a pine tree, with soft blue shadows and falling snowflakes.”_
 
-#### Use a Structure
+### Use a Structure
 
-You don’t need perfect grammar, but organizing your prompt helps a lot. Here’s a complete structure that works well:
+You don’t need perfect grammar, but to get the best results, structure your prompt using a clear format. Section 3 walks you through each part, but here's the general idea:
+
+* **Image summary**: A concise phrase describing the type of image
+* **Main subject**: Who or what the image is about
+* **Pose or action**: What the subject is doing
+
+- **Secondary elements**: Anything else around the main subject
+
+* **Setting & background**: Where it’s taking place
+* **Lighting & atmosphere**: How the scene feels
+* **Framing & composition**: Camera angle or layout (optional)
+
+Here’s a complete structure that works well:
 
 > _\[Image summary]. \[Main subject details], \[Pose or action], \[Secondary elements], \[Setting & Background], \[Lighting & Atmosphere], \[Framing & Composition]_
 
@@ -37,29 +53,29 @@ For example:
 
 No need to use every part—keep it short when exploring, and add more parts/details when you need control.
 
-#### Main Ideas First
+### Main Ideas First
 
 Ideogram tends to give slightly more importance to parts placed earlier in the prompt. This is where to write the subject.
 
-#### Generating Text in Images
+### Generating Text in Images
 
 If you want text in your image, describing it near the beginning of the prompt usually leads to better results with fewer errors than if it is near the end. Using quotes `“ ”` around the desired text also helps. Keep in mind that the longer and more complex the text, the more likely it is to produce errors.
 
-#### Visually Grounded vs. Abstract Prompts
+### Visually Grounded vs. Abstract Prompts
 
 * **Visually Grounded**: Clear, detailed prompts get you precise images (e.g., _“A smiling woman wearing sunglasses at the beach”_).
 * **Abstract/Poetic**: Vague or symbolic prompts lead to creative, surprising images (e.g., _“The feeling of summer captured in a moment”_).
 
-#### Handle Negatives
+### Handle Negatives
 
 * Don’t say _“no people,” “man without a beard,” “no background”_ or _“without trees.”_
 * Instead, say exactly what you want (_“empty street,” “clean-shaven man,” “a plain white background,” or “desert landscape”_).
 
-#### Be Specific, Detailed, But Not Overloaded
+### Be Specific, Detailed, But Not Overloaded
 
 Ideogram generally performs best with prompts under approximately 150 words (around 200 tokens). If the prompt is longer, the AI may begin to misinterpret or ignore the content beyond that point.
 
-#### Try, Iterate, Tweak
+### Try, Iterate, Tweak
 
 If something looks off, tweak one thing at a time:
 
@@ -68,9 +84,9 @@ If something looks off, tweak one thing at a time:
 * Use a different style
 * Change the aspect ratio to change framing
 
-Prompting is a creative process—experiment, learn, and have fun
+Prompting is a creative process—experiment, learn, and have fun.
 
-#### Use Creative Tools
+### Use Creative Tools
 
 * **Magic Prompt**: Enhances and expands your original prompt.
 * **Reference Style**: Applies the visual style from an image (generated or uploaded) to the image you are generating.
